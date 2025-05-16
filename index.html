@@ -2,7 +2,7 @@
 <html data-init="no-js">
 <head>
 <meta charset="UTF-8" />
-<title>JMU Libraries Escape Room 2025, GitHub version</title>
+<title>JMU Libraries Escape Room 2025 GitHub</title>
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="application-name" content="SugarCube" />
 <meta name="version" content="2.37.3" />
@@ -113,7 +113,7 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 
 a
 {
-  color: #4169E1;
+  color: #4169E1; font-weight: bold;
 }
 
 a:hover {
@@ -359,13 +359,13 @@ You spread out the packages of tea and look at them. There are eight in total. E
 7 = Basic Black Tea
 8 = Orange Spice
 &lt;&lt;endif&gt;&gt;
-[[Examine the desk again|desk]]</tw-passagedata><tw-passagedata pid="13" name="Dead End Object" tags="clue" position="800,0" size="100,100">&lt;&lt;if $dead_end_object is &quot;telephone&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-telephone.jpg&quot; alt=&quot;Photograph of a telephone&quot; height=300&gt; \&lt;&lt;/if&gt;&gt;
-&lt;&lt;if $dead_end_object is &quot;stapler&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-stapler.jpg&quot; alt=&quot;Photograph of a stapler&quot; height=300&gt; &lt;&lt;/if&gt;&gt; \
-&lt;&lt;if $dead_end_object is &quot;coffee maker&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-coffeemaker.jpg&quot; alt=&quot;Photograph of a coffee maker&quot; height=300&gt; &lt;&lt;/if&gt;&gt; \
-&lt;&lt;if $dead_end_object is &quot;mug&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-mug.jpg&quot; alt=&quot;Photograph of a JMU mug&quot; height=300&gt; \&lt;&lt;/if&gt;&gt;
+[[Examine the desk again|desk]]</tw-passagedata><tw-passagedata pid="13" name="Dead End Object" tags="clue" position="800,0" size="100,100">&lt;&lt;if $dead_end_object is &quot;telephone&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-telephone.jpg&quot; alt=&quot;Telephone&quot; height=300&gt; \&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $dead_end_object is &quot;stapler&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-stapler.jpg&quot; alt=&quot;Stapler&quot; height=300&gt; &lt;&lt;/if&gt;&gt; \
+&lt;&lt;if $dead_end_object is &quot;coffee maker&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-coffeemaker.jpg&quot; alt=&quot;Coffee maker&quot; height=300&gt; &lt;&lt;/if&gt;&gt; \
+&lt;&lt;if $dead_end_object is &quot;mug&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-mug.jpg&quot; alt=&quot;JMU mug&quot; height=300&gt; \&lt;&lt;/if&gt;&gt;
 You examine the $dead_end_object carefully, but don&#39;t find anything unusual. It&#39;s probably not a clue.
 
-&lt;&lt;link `&quot;Examine the &quot; + $dead_end_location + &quot; again&quot;` `$dead_end_location`&gt;&gt;testing&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="call numbers by subject sign" tags="clue" position="25,0" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;call numbers by subject sign&quot;) == -1&gt;&gt; \
+&lt;&lt;link `&quot;Examine the &quot; + $dead_end_location + &quot; again&quot;` `$dead_end_location`&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="call numbers by subject sign" tags="clue" position="25,0" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;call numbers by subject sign&quot;) == -1&gt;&gt; \
 You pick up the sign to look at it more closely. It&#39;s a copy of the signs you&#39;ve seen posted on the bookselves in the library.
 
 &lt;b&gt;(Call numbers by subject sign has been added to your Inventory!)&lt;/b&gt;
