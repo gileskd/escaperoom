@@ -249,7 +249,7 @@ textarea:hover {
 #menu li a:hover {
 	background-color: #AD9C65;
 	border-color: #AD9C65;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="setup" color="purple"></tw-tag><tw-tag name="clue" color="blue"></tw-tag><tw-tag name="puzzle" color="red"></tw-tag><tw-tag name="location" color="green"></tw-tag><tw-passagedata pid="1" name="Home" tags="location" position="375,0" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/loc-room.jpg&quot; alt=&quot;An office in Carrier Library&quot; height=300&gt;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="setup" color="purple"></tw-tag><tw-tag name="clue" color="blue"></tw-tag><tw-tag name="puzzle" color="red"></tw-tag><tw-tag name="location" color="green"></tw-tag><tw-passagedata pid="1" name="Home" tags="location" position="375,0" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/loc-room.jpg&quot; alt=&quot;An office in Carrier Library&quot; height=300&gt;
 &lt;&lt;if visited(&quot;Home&quot;) is 1&gt;&gt;&lt;&lt;set $puzzles_solved to 0&gt;&gt;The door swings shut behind you. You&#39;re locked in now. Before you can leave you&#39;ll need to find the key to unlock the door, and the Passport stamp to get credit for this event.
 
 You look around the room. It appears to be a librarian&#39;s office.
@@ -288,7 +288,7 @@ Inside the box you find a piece of paper with a list written on it and a pink co
 
 &lt;&lt;return &quot;Try a different combination&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;
 [[Examine the table again|table]]</tw-passagedata><tw-passagedata pid="9" name="date stamp" tags="clue" position="675,125" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;date stamp&quot;) == -1&gt;&gt; \
-&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-datestamp.jpg&quot; alt=&quot;A date stamp&quot; height=300&gt;
+&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-datestamp.jpg&quot; alt=&quot;A date stamp&quot; height=300&gt;
 The date stamp seems like an ordinary piece of office equipment, but maybe it holds a clue?
 
 &lt;&lt;linkreplace &quot;Use the date stamp&quot;&gt;&gt; \
@@ -300,7 +300,7 @@ You press the stamp onto a notepad. A date appears on the paper:
 &lt;&lt;/linkreplace&gt;&gt; \
 &lt;&lt;else&gt;&gt;The date stamp is set to April 20.
 &lt;&lt;/if&gt;&gt; 
-[[Examine the desk again|desk]]</tw-passagedata><tw-passagedata pid="10" name="table" tags="location" position="200,125" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/loc-table.jpg&quot; alt=&quot;Photograph of a table&quot; height=300&gt;
+[[Examine the desk again|desk]]</tw-passagedata><tw-passagedata pid="10" name="table" tags="location" position="200,125" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/loc-table.jpg&quot; alt=&quot;Photograph of a table&quot; height=300&gt;
 &lt;&lt;if visited() &lt;= 1&gt;&gt;&lt;&lt;endif&gt;&gt; \
 On one side of the table are three pieces of paper. You see \
 a [[call numbers by subject sign]], \
@@ -313,7 +313,7 @@ a [[plastic box]], \
 a [[toolbox]], \
 a [[wooden box]], \
 and a [[notebook case]].
-</tw-passagedata><tw-passagedata pid="11" name="desk" tags="location" position="550,125" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/loc-desk.jpg&quot; alt=&quot;An office desk&quot; height=300&gt;
+</tw-passagedata><tw-passagedata pid="11" name="desk" tags="location" position="550,125" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/loc-desk.jpg&quot; alt=&quot;An office desk&quot; height=300&gt;
 &lt;&lt;if visited() &lt;= 1&gt;&gt;A computer sits in the middle of the desk, but that&#39;s not going to help you get out of the room. Some of the other objects might be clues, though.
 
 &lt;&lt;endif&gt;&gt; \
@@ -329,7 +329,7 @@ and a &lt;&lt;link &quot;mug&quot; &quot;Dead End Object&quot;&gt;&gt;&lt;&lt;se
 
 On a shelf under the desk are several [[library books]].
 </tw-passagedata><tw-passagedata pid="12" name="tea" tags="clue" position="675,0" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;tea&quot;) == -1&gt;&gt; \
-&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-teabox.jpg&quot; alt=&quot;A box of tea&quot; height=300&gt;
+&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-teabox.jpg&quot; alt=&quot;A box of tea&quot; height=300&gt;
 This box of tea is a variety pack that contains different flavors. It&#39;s  on the desk next to a &lt;&lt;link &quot;mug&quot; &quot;Dead End Object&quot;&gt;&gt;&lt;&lt;set $dead_end_object to &quot;mug&quot;&gt;&gt;&lt;&lt;set $dead_end_location to &quot;tea&quot;&gt;&gt;&lt;&lt;/link&gt;&gt; and a &lt;&lt;link &quot;coffee maker&quot; &quot;Dead End Object&quot;&gt;&gt;&lt;&lt;set $dead_end_object to &quot;coffee maker&quot;&gt;&gt;&lt;&lt;set $dead_end_location to &quot;tea&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;. You don&#39;t see any coffee, so you guess that the librarian uses the coffee maker to boil water for tea.
 
 &lt;&lt;linkreplace &quot;Open the tea box&quot;&gt;&gt; \
@@ -338,7 +338,7 @@ You open the tea box, and see that it contains several packages of tea. They are
 &lt;&lt;linkreplace &quot;Examine one of the tea packages&quot;&gt;&gt; \
 You take one of the tea packages from the box to look at it more closely.
 
-&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/tea-gold.png&quot; alt=&quot;Envelope for a bag of of Golden Vanilla tea with the number 1 written on the corner&quot; height=300&gt;
+&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/tea-gold.png&quot; alt=&quot;Envelope for a bag of of Golden Vanilla tea with the number 1 written on the corner&quot; height=300&gt;
 
 The envelope is gold colored and the label says that it contains Golden Vanilla tea. You notice the number 1 written on the corner. This seems like a clue.
 
@@ -347,7 +347,7 @@ The envelope is gold colored and the label says that it contains Golden Vanilla 
 &lt;&lt;run $inventory.push(&quot;tea&quot;)&gt;&gt; \
 [[Examine the rest of the tea|tea]] \
 &lt;&lt;/linkreplace&gt;&gt; &lt;&lt;/linkreplace&gt;&gt; \
-&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/tea-all.png&quot; alt=&quot;Tea bag envelopes in different colors, each with a number written on the corner&quot; height=400&gt;
+&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/tea-all.png&quot; alt=&quot;Tea bag envelopes in different colors, each with a number written on the corner&quot; height=400&gt;
 You spread out the packages of tea and look at them. There are eight in total. Each one is a different color and has a different number written on the corner.
 
 1 = Golden Vanilla
@@ -359,10 +359,10 @@ You spread out the packages of tea and look at them. There are eight in total. E
 7 = Basic Black Tea
 8 = Orange Spice
 &lt;&lt;endif&gt;&gt;
-[[Examine the desk again|desk]]</tw-passagedata><tw-passagedata pid="13" name="Dead End Object" tags="clue" position="800,0" size="100,100">&lt;&lt;if $dead_end_object is &quot;telephone&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-telephone.jpg&quot; alt=&quot;Photograph of a telephone&quot; height=300&gt; \&lt;&lt;/if&gt;&gt;
-&lt;&lt;if $dead_end_object is &quot;stapler&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-stapler.jpg&quot; alt=&quot;Photograph of a stapler&quot; height=300&gt; &lt;&lt;/if&gt;&gt; \
-&lt;&lt;if $dead_end_object is &quot;coffee maker&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-coffeemaker.jpg&quot; alt=&quot;Photograph of a coffee maker&quot; height=300&gt; &lt;&lt;/if&gt;&gt; \
-&lt;&lt;if $dead_end_object is &quot;mug&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-mug.jpg&quot; alt=&quot;Photograph of a JMU mug&quot; height=300&gt; \&lt;&lt;/if&gt;&gt;
+[[Examine the desk again|desk]]</tw-passagedata><tw-passagedata pid="13" name="Dead End Object" tags="clue" position="800,0" size="100,100">&lt;&lt;if $dead_end_object is &quot;telephone&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-telephone.jpg&quot; alt=&quot;Photograph of a telephone&quot; height=300&gt; \&lt;&lt;/if&gt;&gt;
+&lt;&lt;if $dead_end_object is &quot;stapler&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-stapler.jpg&quot; alt=&quot;Photograph of a stapler&quot; height=300&gt; &lt;&lt;/if&gt;&gt; \
+&lt;&lt;if $dead_end_object is &quot;coffee maker&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-coffeemaker.jpg&quot; alt=&quot;Photograph of a coffee maker&quot; height=300&gt; &lt;&lt;/if&gt;&gt; \
+&lt;&lt;if $dead_end_object is &quot;mug&quot;&gt;&gt; &lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-mug.jpg&quot; alt=&quot;Photograph of a JMU mug&quot; height=300&gt; \&lt;&lt;/if&gt;&gt;
 You examine the $dead_end_object carefully, but don&#39;t find anything unusual. It&#39;s probably not a clue.
 
 &lt;&lt;link `&quot;Examine the &quot; + $dead_end_location + &quot; again&quot;` `$dead_end_location`&gt;&gt;testing&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="14" name="call numbers by subject sign" tags="clue" position="25,0" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;call numbers by subject sign&quot;) == -1&gt;&gt; \
@@ -468,14 +468,14 @@ You pick up the handout to look at it more closely. There&#39;s a faint brown ri
 &lt;b&gt;(Interlibrary Loan handout has been added to your Inventory!)&lt;/b&gt;
 &lt;&lt;run $inventory.push(&quot;Interlibrary Loan handout&quot;)&gt;&gt; \
 &lt;&lt;/if&gt;&gt; \
-&lt;div style=&quot;background-image: url(&#39;https://github.com/gileskd/escaperoom/raw/gh-pages/images/teastain.png&#39;); background-repeat: no-repeat;&quot;&gt;
+&lt;div style=&quot;background-image: url(&#39;https://github.com/gileskd/escaperoom/raw/main/images/teastain.png&#39;); background-repeat: no-repeat;&quot;&gt;
 &lt;h1 style=&quot;text-align:center;&quot;&gt;What is Interlibrary Loan (ILL)?&lt;/h1&gt; \
 If JMU Libraries doesn’t have the materials you need, we can borrow them from another library through a service called Interlibrary Loan (ILL).  ILL allows libraries across the US and around the world to borrow books, audiovisual items, and other materials from each other. Allow at least 4-8 business days for materials to be shipped to JMU. 
 
 ILL can also provide copies of journal articles, book chapters, and reports. Articles will be delivered electronically whenever possible.  Allow at least 1-3 business days for delivery.
 
 &lt;/div&gt;
-&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/ILL-4.png&quot; alt=&quot;Illustration showing the JMU Logo and UVA logo. Below the logos are three boxes labeled JMU Purple, JMU Gold, Jefferson Blue, and Rotunda Orange.&quot; &gt;
+&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/ILL-4.png&quot; alt=&quot;Illustration showing the JMU Logo and UVA logo. Below the logos are three boxes labeled JMU Purple, JMU Gold, Jefferson Blue, and Rotunda Orange.&quot; &gt;
 
 &lt;hr&gt;
 [[Examine the table again|table]]</tw-passagedata><tw-passagedata pid="16" name="library locations brochure" tags="clue" position="25,200" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;library locations brochure&quot;) == -1&gt;&gt; \
@@ -498,21 +498,21 @@ You pick up the brochure to look at it more closely. You notice that someone has
 &lt;/style&gt; \
 &lt;h1 style=&quot;text-align:center; font-size:250%; font-family:Arial Black, sans-serif;&quot;&gt;JMU LIBRARIES LOCATIONS&lt;/h1&gt; \
 &lt;div class=&quot;grid-container&quot;&gt; 
-  &lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/lib-carrier.png&quot; alt=&quot;Picture of Carrier Library with a down arrow&quot; align=left width=50%&gt;&lt;p style=&quot;font-size:120%;color:steelblue&quot;&gt;&lt;strong&gt;Carrier Library&lt;/strong&gt;, near the Quad, is home to our arts, social sciences, literature, and humanities books. JMU&#39;s Special Collections is on the second floor.&lt;/p&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/lib-carrier.png&quot; alt=&quot;Picture of Carrier Library with a down arrow&quot; align=left width=50%&gt;&lt;p style=&quot;font-size:120%;color:steelblue&quot;&gt;&lt;strong&gt;Carrier Library&lt;/strong&gt;, near the Quad, is home to our arts, social sciences, literature, and humanities books. JMU&#39;s Special Collections is on the second floor.&lt;/p&gt;
   &lt;/div&gt;
-  &lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/lib-rose.png&quot; alt=&quot;Picture of Rose Library with a right arrow&quot; align=right width=50%&gt;&lt;p style=&quot;font-size:120%;color:olivedrab&quot;&gt;&lt;strong&gt;Rose Library&lt;/strong&gt;, on East Campus, houses our math, science, technology, health, engineering, and business books. You can also swipe into the 24-hour study space on the first floor!&lt;/p&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/lib-rose.png&quot; alt=&quot;Picture of Rose Library with a right arrow&quot; align=right width=50%&gt;&lt;p style=&quot;font-size:120%;color:olivedrab&quot;&gt;&lt;strong&gt;Rose Library&lt;/strong&gt;, on East Campus, houses our math, science, technology, health, engineering, and business books. You can also swipe into the 24-hour study space on the first floor!&lt;/p&gt;
   &lt;/div&gt;  
-  &lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/lib-music.png&quot; alt=&quot;Picture of the Music Building with an up arrow&quot; align=left width=50%&gt;&lt;p style=&quot;font-size:120%;color:teal&quot;&gt;The &lt;strong&gt;Music Library&lt;/strong&gt;, located in the basement of the Music Building, features music, an art gallery, and more. Everyone is welcome to create, use, peruse, and take the music home.&lt;/p&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/lib-music.png&quot; alt=&quot;Picture of the Music Building with an up arrow&quot; align=left width=50%&gt;&lt;p style=&quot;font-size:120%;color:teal&quot;&gt;The &lt;strong&gt;Music Library&lt;/strong&gt;, located in the basement of the Music Building, features music, an art gallery, and more. Everyone is welcome to create, use, peruse, and take the music home.&lt;/p&gt;
   &lt;/div&gt;
-  &lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/lib-etmc.png&quot; alt=&quot;Picture of Memorial Hall with a left arrow&quot; align=right width=50%&gt;&lt;p style=&quot;font-size:120%;color:peru&quot;&gt;The &lt;strong&gt;Educational Technology and Media Center&lt;/strong&gt; (ETMC), located in Memorial Hall, offers materials for current and future educators, as well as children&#39;s and young adult literature.&lt;/p&gt;
+  &lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/lib-etmc.png&quot; alt=&quot;Picture of Memorial Hall with a left arrow&quot; align=right width=50%&gt;&lt;p style=&quot;font-size:120%;color:peru&quot;&gt;The &lt;strong&gt;Educational Technology and Media Center&lt;/strong&gt; (ETMC), located in Memorial Hall, offers materials for current and future educators, as well as children&#39;s and young adult literature.&lt;/p&gt;
   &lt;/div&gt;
   &lt;/div&gt; \
 &lt;center&gt;&lt;p style=&quot;font-size:120%;&quot;&gt;Do you usually visit only one JMU library? &lt;br&gt;Request the materials you need and we&#39;ll deliver them to your preferred library location!&lt;/p&gt; \
 &lt;h1 style=&quot;text-align:center; font-family:Arial Black, sans-serif;&quot;&gt;YOUR JAC IS YOUR LIBRARY CARD!&lt;/h1&gt;
-&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/socialmedia.png&quot; alt=&quot;Follow @JMULibraries on Facebook, Snapchat, Twitter, or Instagram&quot;&gt;&lt;/center&gt;
+&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/socialmedia.png&quot; alt=&quot;Follow @JMULibraries on Facebook, Snapchat, Twitter, or Instagram&quot;&gt;&lt;/center&gt;
 &lt;hr&gt;
 [[Examine the table again|table]]</tw-passagedata><tw-passagedata pid="17" name="cash box" tags="puzzle" position="25,400" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;directions poem&quot;) != -1&gt;&gt;You have already opened this box and taken everything that was inside.
-&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-cashbox.jpg&quot; alt=&quot;A cash box&quot; align=right height=250&gt;
+&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-cashbox.jpg&quot; alt=&quot;A cash box&quot; align=right height=250&gt;
 The cash box is locked with a three-digit combination lock.
 
 What is the combination?
@@ -530,7 +530,7 @@ What is the combination?
 
 [[Examine the table again|table]]</tw-passagedata><tw-passagedata pid="18" name="toolbox" tags="puzzle" position="200,400" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;coin purse&quot;) != -1&gt;&gt;You have already opened this box and taken everything that was inside.
 
-&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/lock-directional.jpg&quot; alt=&quot;A directional lock&quot; align=right height=250&gt;The toolbox is locked with a special kind of lock. It&#39;s a directional lock with a center button that can be pushed up, down, left, and right to enter the combination.
+&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/lock-directional.jpg&quot; alt=&quot;A directional lock&quot; align=right height=250&gt;The toolbox is locked with a special kind of lock. It&#39;s a directional lock with a center button that can be pushed up, down, left, and right to enter the combination.
 
 Which direction do you push first?
 &lt;&lt;textbox &quot;$combod1&quot; &quot;&quot;&gt;&gt;
@@ -558,7 +558,7 @@ Which direction do you push fourth?
 &lt;&lt;/button&gt;&gt;&lt;div id=&quot;error-name&quot;&gt;&lt;/div&gt;
 &lt;&lt;/if&gt;&gt; \
 [[Examine the table again|table]]</tw-passagedata><tw-passagedata pid="19" name="wooden box" tags="puzzle" position="550,400" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;word search&quot;) != -1&gt;&gt;You have already opened this box and taken everything that was inside.
-&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/lock-4digit.jpg&quot; alt=&quot;A four-digit combination lock&quot; align=right height=250&gt;
+&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/lock-4digit.jpg&quot; alt=&quot;A four-digit combination lock&quot; align=right height=250&gt;
 The wooden box is locked with a four-digit combination lock.
 
 What is the combination?
@@ -576,7 +576,7 @@ What is the combination?
 
 [[Examine the table again|table]]</tw-passagedata><tw-passagedata pid="20" name="ILL Answer" tags="clue" position="550,525" size="100,100">&lt;&lt;if $combo is &quot;3148&quot;&gt;&gt;Correct! You opened the lock! &lt;&lt;set $puzzles_solved to $puzzles_solved + 1&gt;&gt; \
 
-&lt;&lt;if $inventory.indexOf(&quot;word search&quot;) == -1&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-wordsearch.jpg&quot; alt=&quot;A crumpled piece of paper with letters on it&quot; height=200&gt;
+&lt;&lt;if $inventory.indexOf(&quot;word search&quot;) == -1&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-wordsearch.jpg&quot; alt=&quot;A crumpled piece of paper with letters on it&quot; height=200&gt;
 Inside the box you find a piece of paper with a word search puzzle on it.
 
 &lt;b&gt;(Word search has been added to your Inventory!)&lt;/b&gt;&lt;&lt;run $inventory.push(&quot;word search&quot;)&gt;&gt;
@@ -619,18 +619,18 @@ Below the note is a sign-in sheet. At the top it says &quot;Please enter your fi
 
 To review the library information you discovered in the game, go to your [[Inventory]].
 
-If you are playing this game as part of a Wellness Passport event, there will now be time for a brief discussion of what you learned and a chance to ask questions about JMU Libraries. At the end of the discussion, you will be able to take a screenshot that can be submitted for Wellness Passport credit.</tw-passagedata><tw-passagedata pid="24" name="Passport stamp" tags="clue" position="375,650" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-passstamp.jpg&quot; alt=&quot;A rubber stamp that says Passport&quot; height=300&gt;
+If you are playing this game as part of a Wellness Passport event, there will now be time for a brief discussion of what you learned and a chance to ask questions about JMU Libraries. At the end of the discussion, you will be able to take a screenshot that can be submitted for Wellness Passport credit.</tw-passagedata><tw-passagedata pid="24" name="Passport stamp" tags="clue" position="375,650" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-passstamp.jpg&quot; alt=&quot;A rubber stamp that says Passport&quot; height=300&gt;
 You found the Passport stamp! Once you leave the room, this stamp will be used on your Wellness Passport verification page to prove that you completed the event.
 &lt;&lt;if $inventory.indexOf(&quot;door key&quot;) == -1&gt;&gt;
 Now you just need to find the key to the door so you can get out of here.
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="25" name="door key" tags="clue" position="900,650" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-doorkey.jpg&quot; alt=&quot;A door key on a purple keychain&quot; height=300&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="25" name="door key" tags="clue" position="900,650" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-doorkey.jpg&quot; alt=&quot;A door key on a purple keychain&quot; height=300&gt;
 This must be the key to unlock the door!
 
 &lt;&lt;if $inventory.indexOf(&quot;Passport stamp&quot;) == -1&gt;&gt;
 You can&#39;t leave yet, though -- you still need to find the Passport stamp. That will be used to stamp your Wellness Passport verification page to prove that you completed the event.
 &lt;&lt;else&gt;&gt;You already found the Passport stamp, so you don&#39;t need to do anything else before leaving the room.
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="26" name="plastic box" tags="puzzle" position="725,400" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;research guides poster&quot;) != -1&gt;&gt;You have already opened this box and taken everything that was inside.
-&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/lock-5word.jpg&quot; alt=&quot;A five-dial word combination lock&quot; align=right width=30%&gt;
+&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/lock-5word.jpg&quot; alt=&quot;A five-dial word combination lock&quot; align=right width=30%&gt;
 The plastic box is locked with a five-dial combination lock that uses letters instead of numbers.
 
 What is the combination?
@@ -647,7 +647,7 @@ What is the combination?
 &lt;&lt;/if&gt;&gt; \
 
 [[Examine the table again|table]]</tw-passagedata><tw-passagedata pid="27" name="notebook case" tags="puzzle" position="900,400" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;door key&quot;) != -1&gt;&gt;You have already opened the notebook case and taken everything that was inside.
-&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/lock-3digit.jpg&quot; alt=&quot;A three-digit combination lock&quot; align=right height=250&gt;
+&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/lock-3digit.jpg&quot; alt=&quot;A three-digit combination lock&quot; align=right height=250&gt;
 The notebook case is locked with a three-digit combination lock.
 
 What is the combination?
@@ -665,8 +665,8 @@ What is the combination?
 
 [[Examine the table again|table]]</tw-passagedata><tw-passagedata pid="28" name="Books Answer" tags="clue" position="725,525" size="100,100">&lt;&lt;if $combo is &quot;books&quot;&gt;&gt;Correct! You opened the lock! &lt;&lt;set $puzzles_solved to $puzzles_solved + 1&gt;&gt;
 &lt;&lt;if $inventory.indexOf(&quot;research guides poster&quot;) == -1&gt;&gt;
-&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-researchguides.jpg&quot; alt=&quot;Poster promoting JMU Libraries research guides&quot; height=300&gt;
-&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-flashlight.jpg&quot; alt=&quot;A small flashlight&quot; height=100&gt;
+&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-researchguides.jpg&quot; alt=&quot;Poster promoting JMU Libraries research guides&quot; height=300&gt;
+&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-flashlight.jpg&quot; alt=&quot;A small flashlight&quot; height=100&gt;
 Inside the box you find a research guides poster and a small flashlight.
 
 &lt;b&gt;(Research guides poster and flashlight have been added to your Inventory!)&lt;/b&gt;&lt;&lt;run $inventory.push(&quot;research guides poster&quot;)&gt;&gt;&lt;&lt;run $inventory.push(&quot;flashlight&quot;)&gt;&gt;
@@ -679,7 +679,7 @@ Inside the box you find a research guides poster and a small flashlight.
 &lt;&lt;return &quot;Try a different combination&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;
 [[Examine the table again|table]]</tw-passagedata><tw-passagedata pid="29" name="Notebook Answer" tags="clue" position="900,525" size="100,100">&lt;&lt;if $combo is &quot;647&quot;&gt;&gt;Correct! You opened the lock! &lt;&lt;set $puzzles_solved to $puzzles_solved + 1&gt;&gt; \
 
-&lt;&lt;if $inventory.indexOf(&quot;door key&quot;) == -1&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-doorkey.jpg&quot; alt=&quot;A door key on a purple keychain&quot; height=300&gt;
+&lt;&lt;if $inventory.indexOf(&quot;door key&quot;) == -1&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-doorkey.jpg&quot; alt=&quot;A door key on a purple keychain&quot; height=300&gt;
 Inside the box you find a door key!
 
 &lt;b&gt;(Door key has been added to your Inventory!)&lt;/b&gt;&lt;&lt;run $inventory.push(&quot;door key&quot;)&gt;&gt;
@@ -712,7 +712,7 @@ You flip through each book, hoping that a helpful note or object might be tucked
 }
 &lt;/style&gt; \
 &lt;div class=&quot;grid-container&quot;&gt; 
-&lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/book-ethics.jpg&quot; alt=&quot;Cover of Case Studies in Nursing Ethics&quot; width=&quot;200&quot; align=left hspace=10 vspace=10&gt;
+&lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/book-ethics.jpg&quot; alt=&quot;Cover of Case Studies in Nursing Ethics&quot; width=&quot;200&quot; align=left hspace=10 vspace=10&gt;
 &lt;i&gt;Case Studies in Nursing Ethics&lt;/i&gt; by Sara T. Fry and Robert M. Veatch.
 
 Call number RT85 .V4 2006
@@ -732,7 +732,7 @@ You open the book. Which page do you turn to?
 &lt;&lt;/linkreplace&gt;&gt; \
 &lt;/div&gt;
 
-&lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/book-escape.jpg&quot; alt=&quot;Cover of Escape&quot; width=&quot;200&quot; align=left hspace=10 vspace=10&gt;
+&lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/book-escape.jpg&quot; alt=&quot;Cover of Escape&quot; width=&quot;200&quot; align=left hspace=10 vspace=10&gt;
 &lt;i&gt;Escape&lt;/i&gt; by Dominique Manotti.
   
 Call number PQ2673.A4865 E8313 2014
@@ -752,7 +752,7 @@ You open the book. Which page do you turn to?
 &lt;&lt;/linkreplace&gt;&gt; \
 &lt;/div&gt;
 
-&lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/book-wellness.jpg&quot; alt=&quot;Cover of Promoting Wellness&quot; width=&quot;200&quot; align=left hspace=10 vspace=10&gt;
+&lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/book-wellness.jpg&quot; alt=&quot;Cover of Promoting Wellness&quot; width=&quot;200&quot; align=left hspace=10 vspace=10&gt;
 &lt;i&gt;Promoting Wellness : A Nurse&#39;s Handbook&lt;/i&gt; by Patricia A. Swinford and Judith A. Webster.
 
 Call number RT90.3 .P76 1989
@@ -772,7 +772,7 @@ You open the book. Which page do you turn to?
 &lt;&lt;/linkreplace&gt;&gt; \
 &lt;/div&gt;
 
-&lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/book-games.jpg&quot; alt=&quot;Cover of Simple Games&quot; width=&quot;200&quot; align=left hspace=10 vspace=10&gt;
+&lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/book-games.jpg&quot; alt=&quot;Cover of Simple Games&quot; width=&quot;200&quot; align=left hspace=10 vspace=10&gt;
 &lt;i&gt;Simple Games: Desirability Relations, Trading, Pseudoweightings&lt;/i&gt; by Alan D. Taylor and William S. Zwicker.
 
 Call number QA269.T39 1999
@@ -792,7 +792,7 @@ You open the book. Which page do you turn to?
 &lt;&lt;/linkreplace&gt;&gt; \
 &lt;/div&gt;
 
-&lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/book-understanding.jpg&quot; alt=&quot;Cover of Understanding / Responding&quot; width=&quot;200&quot; align=left hspace=10 vspace=10&gt;
+&lt;div class=&quot;grid-item&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/book-understanding.jpg&quot; alt=&quot;Cover of Understanding / Responding&quot; width=&quot;200&quot; align=left hspace=10 vspace=10&gt;
 &lt;i&gt;Understanding / Responding: A Communication Manual for Nurses&lt;/i&gt; by Lynette Long.
 
 Call number RT86 .L66 1992 
@@ -818,7 +818,7 @@ You open the book. Which page do you turn to?
 &lt;&lt;if $book is &quot;escape&quot;&gt;&gt;You turn to page $bookpage in &lt;i&gt;Escape&lt;/i&gt;, but don&#39;t find anything that seems like a clue.
 
 &lt;&lt;return &quot;Try again&quot;&gt;&gt;&lt;&lt;/if&gt;&gt; \
-&lt;&lt;if $book is &quot;wellness&quot;&gt;&gt;You turn to page $bookpage in &lt;i&gt;Promoting Wellness: A Nurse&#39;s Handbook&lt;/i&gt;&lt;&lt;if $bookpage is &quot;63&quot;&gt;&gt;. Several letters on the page have been marked with a yellow highlighter.&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/page-wellness.jpg&quot; alt=&quot;Page from a book with the letters M, C, and Y marked&quot; width=100%&gt;
+&lt;&lt;if $book is &quot;wellness&quot;&gt;&gt;You turn to page $bookpage in &lt;i&gt;Promoting Wellness: A Nurse&#39;s Handbook&lt;/i&gt;&lt;&lt;if $bookpage is &quot;63&quot;&gt;&gt;. Several letters on the page have been marked with a yellow highlighter.&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/page-wellness.jpg&quot; alt=&quot;Page from a book with the letters M, C, and Y marked&quot; width=100%&gt;
 &lt;&lt;return &quot;Look at another book&quot;&gt;&gt; \
 &lt;&lt;else&gt;&gt;, but don&#39;t find anything that seems like a clue.
 
@@ -836,7 +836,7 @@ You open the book. Which page do you turn to?
 
 &lt;&lt;return &quot;Try again&quot;&gt;&gt;&lt;&lt;/if&gt;&gt; \
 &lt;&lt;/if&gt;&gt;
-[[Examine the desk again|desk]]</tw-passagedata><tw-passagedata pid="32" name="dummy" tags="location" position="375,125" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-dummy.jpg&quot; alt=&quot;A medical dummy head&quot; height=300&gt;
+[[Examine the desk again|desk]]</tw-passagedata><tw-passagedata pid="32" name="dummy" tags="location" position="375,125" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-dummy.jpg&quot; alt=&quot;A medical dummy head&quot; height=300&gt;
 
 This is a model of a human head, neck, and shoulders. The face looks like a department store mannequin, but the eyes are strangely realistic. &lt;&lt;if $eye_exam is &quot;on&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;
 
@@ -857,7 +857,7 @@ Science book, page 185.&lt;/blockquote&gt; \
 &lt;tr&gt;&lt;td&gt;E&lt;/td&gt;&lt;td&gt;Y&lt;/td&gt;&lt;td&gt;E&lt;/td&gt;&lt;td&gt;S&lt;/td&gt;&lt;/tr&gt;
 &lt;/table&gt;&lt;/center&gt;
 &lt;/p&gt;</tw-passagedata><tw-passagedata pid="34" name="research guides poster" tags="clue" position="675,650" size="100,100">&lt;h1 style=&quot;text-align:center;&quot;&gt;&lt;em&gt;Get ahead&lt;/em&gt; in school with help from JMU Libraries!&lt;/h1&gt; \
-&lt;p style=&quot;text-align:center; font-size:150%;&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/womancomputer.jpg&quot; alt=&quot;A woman sitting at a computer and thinking. She is touching a pencil to her head near her right eye.&quot; &gt;&lt;br&gt;{{{https://guides.lib.jmu.edu/researchguides}}}&lt;/p&gt; \
+&lt;p style=&quot;text-align:center; font-size:150%;&quot;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/womancomputer.jpg&quot; alt=&quot;A woman sitting at a computer and thinking. She is touching a pencil to her head near her right eye.&quot; &gt;&lt;br&gt;{{{https://guides.lib.jmu.edu/researchguides}}}&lt;/p&gt; \
 &lt;p style=&quot;font-size:150%;&quot;&gt;Having trouble finding sources for your assignments? &lt;em&gt;Look&lt;/em&gt; at our research guides to stay on the &lt;em&gt;right&lt;/em&gt; track. Find books, article databases, and more, recommended by subject librarians to help you be a good &lt;em&gt;pupil&lt;/em&gt;.&lt;/p&gt; \
 &lt;hr&gt;</tw-passagedata><tw-passagedata pid="35" name="eye" tags="clue" position="375,250" size="100,100">&lt;&lt;if visited(&quot;eye&quot;) is 1&gt;&gt;&lt;&lt;set $eye_exam to &quot;on&quot;&gt;&gt;&lt;&lt;/if&gt;&gt; \
 You look in the pupil of the medical dummy&#39;s $eye_side. There appears to be some sort of picture inside, but it&#39;s too dark to see what it is.
@@ -865,10 +865,10 @@ You look in the pupil of the medical dummy&#39;s $eye_side. There appears to be 
 &lt;&lt;linkreplace &quot;Shine the flashlight into the $eye_side&quot;&gt;&gt; \
 &lt;&lt;if $eye_side is &quot;left eye&quot;&gt;&gt;You turn on the flashlight and shine it into the $eye_side. The light illuminates a slide with an image of a retina.
 
-&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-eyeleft.jpg&quot; alt=&quot;Image of a retina&quot; height=300&gt;&lt;&lt;/if&gt;&gt; \
+&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-eyeleft.jpg&quot; alt=&quot;Image of a retina&quot; height=300&gt;&lt;&lt;/if&gt;&gt; \
 &lt;&lt;if $eye_side is &quot;right eye&quot;&gt;&gt;You turn on the flashlight and shine it into the $eye_side. The light illuminates a slide with an image of a retina. The number &quot;647&quot; is written on the slide.&lt;&lt;if $eye_exam is &quot;on&quot;&gt;&gt;&lt;&lt;set $puzzles_solved to $puzzles_solved + 1&gt;&gt;&lt;&lt;set $eye_exam to &quot;off&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;
 
-&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-eyeright.jpg&quot; alt=&quot;Image of a retina, with the number 647 written on it&quot; height=300&gt;&lt;&lt;/if&gt;&gt; \
+&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-eyeright.jpg&quot; alt=&quot;Image of a retina, with the number 647 written on it&quot; height=300&gt;&lt;&lt;/if&gt;&gt; \
 &lt;&lt;/linkreplace&gt;&gt;&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $eye_side is &quot;left eye&quot;&gt;&gt;&lt;&lt;link &quot;Examine the right eye&quot; &quot;eye&quot;&gt;&gt;&lt;&lt;set $eye_side to &quot;right eye&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;&lt;/if&gt;&gt; \
 &lt;&lt;if $eye_side is &quot;right eye&quot;&gt;&gt;&lt;&lt;link &quot;Examine the left eye&quot; &quot;eye&quot;&gt;&gt;&lt;&lt;set $eye_side to &quot;left eye&quot;&gt;&gt;&lt;&lt;/link&gt;&gt;&lt;&lt;/if&gt;&gt;
@@ -877,7 +877,7 @@ You look in the pupil of the medical dummy&#39;s $eye_side. There appears to be 
 
 Passport stamp image:
 &lt;img src=&quot;http://users.lib.jmu.edu/gileskd/games/twine/images/passport.jpg&quot; alt=&quot;Image of the word passport stamped in red ink&quot; height=&quot;200&quot;&gt;</tw-passagedata><tw-passagedata pid="37" name="Date Stamp Answer" tags="clue" position="25,525" size="100,100">&lt;&lt;if $combo is &quot;420&quot;&gt;&gt;Correct! You opened the lock! &lt;&lt;set $puzzles_solved to $puzzles_solved + 1&gt;&gt;
-&lt;&lt;if $inventory.indexOf(&quot;directions poem&quot;) == -1&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-poem.jpg&quot; alt=&quot;A crumpled piece of paper with writing on it&quot; height=150&gt;
+&lt;&lt;if $inventory.indexOf(&quot;directions poem&quot;) == -1&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-poem.jpg&quot; alt=&quot;A crumpled piece of paper with writing on it&quot; height=150&gt;
 Inside the box you find a piece of paper with a short poem written on it. 
 
 &lt;b&gt;(Directions poem has been added to your Inventory!)&lt;/b&gt;&lt;&lt;run $inventory.push(&quot;directions poem&quot;)&gt;&gt;
@@ -887,7 +887,7 @@ Inside the box you find a piece of paper with a short poem written on it.
 
 &lt;&lt;return &quot;Try a different combination&quot;&gt;&gt;&lt;&lt;/if&gt;&gt;
 [[Examine the table again|table]]</tw-passagedata><tw-passagedata pid="38" name="coin purse" tags="puzzle" position="375,400" size="100,100">&lt;&lt;if $inventory.indexOf(&quot;Passport stamp&quot;) != -1&gt;&gt;You have already opened the coin purse and taken everything that was inside.
-&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/lock-4word.jpg&quot; alt=&quot;A four-dial word combination lock&quot; align=right width=30%&gt;
+&lt;&lt;else&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/lock-4word.jpg&quot; alt=&quot;A four-dial word combination lock&quot; align=right width=30%&gt;
 The coin purse is locked with a four-dial combination lock that uses letters instead of numbers.
 
 What is the combination?
@@ -905,7 +905,7 @@ What is the combination?
 
 [[Examine the table again|table]]</tw-passagedata><tw-passagedata pid="39" name="Call Number Answer" tags="clue" position="375,525" size="100,100">&lt;&lt;if $combo is &quot;duke&quot;&gt;&gt;Correct! You opened the lock! &lt;&lt;set $puzzles_solved to $puzzles_solved + 1&gt;&gt;
 
-&lt;&lt;if $inventory.indexOf(&quot;Passport stamp&quot;) == -1&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-passstamp.jpg&quot; alt=&quot;A rubber stamp that says Passport&quot; height=300&gt;
+&lt;&lt;if $inventory.indexOf(&quot;Passport stamp&quot;) == -1&gt;&gt;&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-passstamp.jpg&quot; alt=&quot;A rubber stamp that says Passport&quot; height=300&gt;
 Inside the coin purse you find a Passport stamp!
 
 &lt;b&gt;(Passport stamp has been added to your Inventory!)&lt;/b&gt;&lt;&lt;run $inventory.push(&quot;Passport stamp&quot;)&gt;&gt;
@@ -940,7 +940,7 @@ Special thanks to all the playtesters who helped improve this game!
 &lt;hr class=&quot;new1&quot;&gt; \
 &#39;&#39;&lt;&lt;if $inventory.indexOf(&quot;Passport stamp&quot;) == -1&gt;&gt;You still need to find the Passport stamp&lt;&lt;if $inventory.indexOf(&quot;door key&quot;) == -1&gt;&gt; and the door key&lt;&lt;/if&gt;&gt;.&lt;&lt;/if&gt;&gt; \
 &lt;&lt;if $inventory.indexOf(&quot;Passport stamp&quot;) != -1 and $inventory.indexOf(&quot;door key&quot;) == -1&gt;&gt;You still need to find the door key.&lt;&lt;/if&gt;&gt;
-View your [[Inventory]] | Puzzles solved: $puzzles_solved/7&lt;&lt;/if&gt;&gt;&#39;&#39;</tw-passagedata><tw-passagedata pid="42" name="flashlight" tags="clue" position="775,650" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/gh-pages/images/prop-flashlight.jpg&quot; alt=&quot;A small flashlight&quot; height=150&gt;
+View your [[Inventory]] | Puzzles solved: $puzzles_solved/7&lt;&lt;/if&gt;&gt;&#39;&#39;</tw-passagedata><tw-passagedata pid="42" name="flashlight" tags="clue" position="775,650" size="100,100">&lt;img src=&quot;https://github.com/gileskd/escaperoom/raw/main/images/prop-flashlight.jpg&quot; alt=&quot;A small flashlight&quot; height=150&gt;
 This small flashlight emits a bright beam of light when turned on.
 </tw-passagedata><tw-passagedata pid="43" name="StoryDisplayTitle" tags="setup" position="975,100" size="100,100">JMU Libraries Escape Room</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
